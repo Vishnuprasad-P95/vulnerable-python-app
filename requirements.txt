@@ -1,9 +1,9 @@
-# Vulnerable dependencies for testing
-Django==3.1.0  # Known vulnerabilities: CVE-2021-31542, CVE-2021-33203
-requests==2.25.1  # Older version with known issues
-Pillow==8.1.0  # CVE-2021-34552
-Flask==1.1.1  # Multiple vulnerabilities
-Jinja2==2.11.0  # CVE-2020-28493
-cryptography==3.2  # Older version with vulnerabilities
-PyYAML==5.3  # CVE-2020-14343
-urllib3==1.26.3  # Known issues
+# Dependencies - versions patched for known CVEs
+Django==3.2.20  # Fixes CVE-2021-31542, CVE-2021-33203
+requests==2.31.0  # Updated to patched version
+Pillow==9.5.0  # Fixes CVE-2021-34552
+Flask==2.3.3  # Updated to patched version
+Jinja2==3.1.2  # Fixes CVE-2020-28493
+cryptography==41.0.3  # Updated to patched version
+PyYAML==6.0.1  # Fixes CVE-2020-14343
+urllib3==1.26.18  # Updated to patched version
